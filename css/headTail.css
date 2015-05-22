@@ -1,0 +1,21 @@
+/* css file for the headTail website */
+
+/* Header with photo background */
+
+header {
+     width:100%;
+     background-image:url("../images/kittyMonkey.jpg");
+     background-size: 1200px 100%;
+     background-repeat: no-repeat;
+     height: 300px;
+}
+
+.hTbody {
+	 border: 2px solid;
+	 margin: 5%;
+}
+
+#mapCanvas {
+	width: 500px;
+	height: 400px;
+}
