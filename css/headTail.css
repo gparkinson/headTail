@@ -2,6 +2,7 @@
 
 /* Header with photo background */
 
+
 header {
 	height: 300px;
     width:100%;
@@ -9,15 +10,17 @@ header {
     background-position: 50% 50%;
   	background-size: cover;
 }
+
 #hTHeader{
-	font-family: 'Changa One', Impact, sans-serif;
-  	font-style: normal;
-  	font-weight: 600;
-  	text-align: center;
-  	text-decoration: none;
-  	font-size: 25px;
-  	padding: 4px;
+  font-family: 'Changa One', Impact, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 4px;
 }
+
 
 .hTbody {
 	 border: 2px solid;
