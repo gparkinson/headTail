@@ -12,13 +12,16 @@ header {
 }
 
 #hTHeader{
-  font-family: 'Changa One', Impact, sans-serif;
-    font-style: normal;
-    font-weight: 600;
+  /*font-family: 'Changa One', Impact, sans-serif;*/
+  font-family: 'Great Vibes', cursive;
+  font-style: italic;
+    /*font-style: normal;*/
+    font-weight: 700;
     text-align: center;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     padding: 4px;
+    text-shadow: 2px 2px #FFFFFF;
 }
 
 .hTbody {
