@@ -53,6 +53,11 @@ ul {
     margin-bottom: 2%;
 }
 
+a[href^=".documents"] {
+    background: url('headtail/images/PDF.png') 0 2px;
+    padding-left: 10px;
+}
+
 Footer {
     font-family: 'Gentium Basic', Arial, sans-serif;
     font-size: 14px;
