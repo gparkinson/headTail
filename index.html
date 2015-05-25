@@ -1,126 +1,136 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>headTail - Best Massage in Portland</title>
+	<title>headTail - Best Massage in Portland</title>
+	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/headTail.css">
+	
+	<! For Google Map /!>
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/headTail.css">
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script>
+	function initialize() {
+		var mapCanvas = document.getElementById('mapCanvas');
+		var mapOptions = {
+			center: new google.maps.LatLng(45.5225082,-122.6936565),
+			zoom: 8,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};var map = new google.maps.Map(mapCanvas, mapOptions)
 
-    <! For Google Map /!>
-
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-        function initialize() {
-            var mapCanvas = document.getElementById('mapCanvas');
-            var mapOptions = {
-                center: new google.maps.LatLng(45.5225082, -122.6936565),
-                zoom: 8,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            var map = new google.maps.Map(mapCanvas, mapOptions)
-
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 </head>
 <body>
 
-<! Header with background image (image is defined in css/!>
+	<! Header with background image (image is defined in css/!>
 
-<header>
-    <div id="hTHeader">
-        <h1>Head and Tail Massage</h1>
-
-        <h3>we cover you with bee's</h3>
-
-        <div>
-</header>
-
-<! Links to sections in page /!>
-
-<nav id="hTNav" class="hTbody">
-    <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#offerings">Offerings</a></li>
-        <li><a href="http://www.massagetherapy.com/learnmore/" target="_blank">About Massage</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#map">Map</a></li>
-        <li><a href="#forms">Forms</a></li>
-    </ul>
-</nav>
-
-<! About section /!>
-
-<section id="hTAbout" class="hTbody">
-    <a name="about"></a>
-
-    <h2>About Natalie</h2>
-
-    <p>Hi, thanks for checking out my page!/p>
-
-    <p>I graduated from Rainstar University of Massage and Colorado School of Energy Studies in Phoenix, Arizona, and I
-        am fully certified in Oregon. I specialize in deep tissues, therapeutic, clinical, energetic and many other
-        modalities - it's all about what addresses your needs.</p>
-
-</section>
+	<header>
+	<div class="headerColumnone">
+		<img src="images/massageLogo.gif" alt="logoImage" class="logoTop">
+		</div>
+		<div id="hTHeader">
+			<div class="companyName">Head and Tail Massage</div>
+			<div class="companyMission">we cover you with bee's</div>
+			<!-- <img src="images/headerLeftimage.jpg" alt="headerImage" class="headerImagetwo">		 -->
+	</header>
 
 
-<! Offerings section /!>
+	<! Links to sections in page /!>	
 
-<section id="hTOfferings" class="hTbody">
-    <a name="offerings"></a>
+	<nav id="hTNav" class="hTbody">
+		<ul>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#offerings">Offerings</a></li>
+			<li><a href="http://www.massagetherapy.com/learnmore/" target="_blank">About Massage</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#map">Map</a></li>
+			<li><a href="#forms">Forms</a></li>
+		</ul>
+	</nav>
 
-    <h2>Offerings and rates</h2>
-    <ol id="hTOfferingsList" class="body">
-        <li>hot stone</li>
-        <li>deep tissue</li>
-        <li>eye gouging</li>
-        <li>surprises</li>
-        <li>one handed while texting</li>
-    </ol>
-</section>
+	<! About section /!>	
 
-<! Contact section /!>
+	<section id="hTAbout" class="hTbody">
+		<a name="about"></a>
+		<h2>About Natalie</h2>
+		<p>Hi, thanks for checking out my page!</p>
+		<p>I graduated from Rainstar University of Massage and Colorado School of Energy Studies in Phoenix, Arizona, and I am fully certified in Oregon.  I specialize in deep tissues, therapeutic, clinical, energetic and many other modalities - it's all about what addresses your needs.</p>
 
-<section id="hTContacts" class="hTbody">
-    <a name="contact"></a>
+	</section>
 
-    <h2>Contact</h2>
-    <ul id="hTOfferingsList" class="body">
-        <li><a href="mailto:headsandtailsmassage@gmail.com">Email</a></li>
-        <li>Phone: 503-555-1212</li>
-        <li>Address: 735 SW 20th Place, Suite 230, Portland OR. 97209</li>
-    </ul>
-</section>
 
-<! Map /!>
+	<! Offerings section /!>	
 
-<section id="hTMap" class="hTbody">
-    <h2>Find us on the map</h2>
-    <a name="map"></a>
+	<section id="hTOfferings" class="hTbody">
+		<a name="offerings"></a>
+		<h2>Offerings and rates</h2>
+		<ul id="hTOfferingsList" class="body">
+			<li class="offering">
+				<p><img src="images/ammonite-prehistoric-fossil.jpg" alt="Golden Spiral" width="105" height="105" align="left"><b>Sports Massage</b>
+				<p>Sports massage emphasizes prevention and healing of injuries to the muscles and tendons. It is ideal for people experiencing sports injuries, chronic pain, or restricted range of motion.</p>
+				<p><b>One hour | $70 - Series of 3 | $180</b></p></p>
+			</li>
+			<li class="offering">
+				<p><img src="images/pebbles-in-water.jpg" alt="White Stone" width="105" height="105" align="right"><b>Hot Stone Massage</b>
+				<p>Hot stone treatments are exceptional for pain relief, increasing circulation, opening stagnant energy, and giving you a sense of peaceful grounding.</p>
+				<p><b>One hour | $90 - Series of 3 | $230</b></p></p>
+			</li>
+			<li class="offering">
+				<p><img src="images/freedom-in-norway.jpg" alt="Trolltunga" width="105" height="105" align="left"><b>Trigger Point Therapy</b>
+				<p>Trigger Point therapy tracks referred pain patterns, identifying root tension points and relieving them with compression. Get to the root of the problem.</p>
+				<p><b>One hour | $80 - Series of 3 | $210</b></p></p>
+			</li>
+			<li class="offering">
+				<p><img src="images/lily-pond.jpg" alt="Trolltunga" width="105" height="105" align="right"><b>Swedish Massage</b>
+				<p>Swedish massage is exceptionally beneficial for increasing the level of oxygen in the blood, decreasing muscle toxins, improving circulation and flexibility while easing tension.</p>
+				<p><b>One Hour | $75 - Series of 3 | $190 (add Deep Tissue for $10)</b></p></p>
+			</li>
+			<li class="offering">
+				<p><img src="images/aurora.jpg" alt="Trolltunga" width="105" height="105" align="left"><b>Prenatal Massage</b>
+				<p>Prenatal massage relieves many of the normal discomforts experienced during pregnancy, such as backaches, stiff neck, leg cramps, headaches and loss of sleep. It is a healthy way to reduce stress and promote overall wellness.</p>
+				<p><b>One Hour | $75 - Series of 3 | $190</b></p></p>
+			</li>
+		</ul>
+	</section>
 
-    <div id="mapCanvas">
-    </div>
-</section>
+	<! Contact section /!>	
 
-<! Forms /!>
+	<section id="hTContacts" class="hTbody">
+		<a name="contact"></a>
+		<h2>Contact</h2>
+		<ul id="hTOfferingsList" class="body">
+			<li><a href="mailto:headsandtailsmassage@gmail.com">Email</a></li>
+			<li>Phone: 503-555-1212</li>
+			<li>Address: 735 SW 20th Place, Suite 230, Portland OR. 97209</li>
+		</ul>
+	</section>
 
-<section id="hTForms" class="hTbody">
-    <a name="forms"></a>
+	<! Map /!>	
 
-    <h2>Forms</h2>
-    <ul id="hTFormsList" class="body">
-        <li><a href="documents/newclientform.pdf" download>New client form</a></li>
-        <li><a href="documents/minorreleaseform.pdf" download>Additional release form for minors (fill out and sign each
-            visit)</a></li>
-    </ul>
-</section>
+	<section id="hTMap" class="hTbody">
+		<h2>Find us on the map</h2>
+		<a name="map"></a>
+		<div id="mapCanvas">
+		</div>
+	</section>
 
-<! Footer /!>
+	<! Forms /!>	
 
-<footer>
-    Copyright 2012-2015 By Heads and Tails Massage. All Rights Reserved
-</footer>
+	<section id="hTForms" class="hTbody">
+		<a name="forms"></a>
+		<h2>Forms</h2>
+		<ul id="hTFormsList" class="body">
+			<li><a href="documents/newclientform.pdf" download>New client form</a></li><li><a href="documents/minorreleaseform.pdf" download>Additional release form for minors (fill out and sign each visit)</a></li>
+		</ul>
+	</section>
+
+	<! Footer /!>
+
+	<footer>
+		Copyright 2012-2015 By Heads and Tails Massage. All Rights Reserved
+	</footer>
 
 </body>
 

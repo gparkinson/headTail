@@ -3,29 +3,38 @@
 /* Header with photo background */
 
 header {
-    height: 300px;
-    width: 100%;
-    background-image: url("../images/backgroundHeaderimage.jpg");
-    background-position: 50% 50%;
-    background-size: cover;
+    height: 150px;
 }
 
-#hTHeader {
-    /*font-family: 'Changa One', Impact, sans-serif;*/
-    font-family: 'Great Vibes', cursive;
-    font-style: italic;
-    /*font-style: normal;*/
-    font-weight: 700;
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    padding: 4px;
-    text-shadow: 2px 2px #FFFFFF;
+.headerColumnone{
+  float: left;
+}
+
+.companyName{
+  font-family: sans-serif;
+  font-size: 70px;
+  text-align: left;
+  text-decoration: none;
+  padding-top: 20px;
+  color: green;
+}
+.companyMission{
+  font-size: 35px;
+  color: green;
+}
+.logoTop{
+  width: 150px;
+}
+
+
+#hTHeader{
+  float: left;
+  padding-left: 20px;
 }
 
 .hTbody {
-    border: 2px solid;
-    margin: 5%;
+	border: 2px solid;
+	margin: 5%;
     font-family: 'Gentium Basic', Arial, sans-serif;
     font-size: 16px;
     text-align: left;
@@ -39,8 +48,8 @@ ul {
 }
 
 #mapCanvas {
-    width: 500px;
-    height: 400px;
+	width: 500px;
+	height: 400px;
     margin-bottom: 2%;
 }
 
