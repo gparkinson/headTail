@@ -25,11 +25,30 @@ header {
 }
 
 .hTbody {
-	 border: 2px solid;
-	 margin: 5%;
+	border: 2px solid;
+	margin: 5%;
+    font-family: 'Gentium Basic', Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    padding-left: 10px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 #mapCanvas {
 	width: 500px;
 	height: 400px;
+    margin-bottom: 2%;
+}
+
+Footer {
+    font-family: 'Gentium Basic', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
