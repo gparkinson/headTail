@@ -53,9 +53,12 @@ ul {
     margin-bottom: 2%;
 }
 
-a[href^=".documents"] {
-    background: url('headtail/images/PDF.png') 0 2px;
+/* Adobe icon for .pdf forms */
+
+a[href$=".pdf"] {
+    background: url("../images/PDF.png") 2px 2px;
     padding-left: 10px;
+
 }
 
 Footer {
