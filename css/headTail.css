@@ -155,5 +155,8 @@ a[href^="#forms"] {
 }
 */
 
+/*Offering section right align*/
 
-
+#hTOfferings {
+padding-right: 10px;
+}
