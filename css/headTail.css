@@ -26,13 +26,12 @@ header {
   width: 150px;
 }
 
-
 #hTHeader{
   float: left;
   padding-left: 20px;
 }
 
-.hTbody {
+.hTbody{
 	border: 2px solid;
 	margin: 5%;
     font-family: 'Gentium Basic', Arial, sans-serif;
@@ -47,20 +46,54 @@ header {
 
 #hTNav ul
 {
-margin: 0;
-padding: 0;
-list-style-type: none;
-text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+}
 
+a[href^="#about"] {
+    color: black;
+    background-color: darkseagreen;
+    padding: 12px 24px;
+}
+
+a[href^="#offerings"] {
+    color: black;
+    background-color: darkseagreen;
+    padding: 12px 24px;
+}
+
+a[href^="http://"] {
+    color: black;
+    background-color: darkseagreen;
+    padding: 12px 24px;
+}
+
+a[href^="#contact"] {
+    color: black;
+    background-color: darkseagreen;
+    padding: 12px 24px;
+}
+
+a[href^="#map"] {
+    color: black;
+    background-color: darkseagreen;
+    padding: 12px 24px;
+}
+
+a[href^="#forms"] {
+    color: black;
+    background-color: darkseagreen;
+    padding: 12px 24px;
 }
 
 #hTNav ul li { 
 	display: inline-block; 
 	border: 2px solid;
-	padding: 10px 4%;
-	
+    padding: 10px 4%;
 }
-
 
 ul {
     list-style-type: none;
@@ -75,9 +108,9 @@ ul {
 /* Adobe icon for .pdf forms */
 
 a[href$=".pdf"] {
-    background: url("../images/PDF.png") 2px 2px;
-    padding-left: 10px;
-
+    background: url("../images/Adobe_PDF_file_icon_24x24.png") no-repeat 10px 10px;
+    padding-left: 4%;
+    padding-top: 1%;
 }
 
 Footer {
