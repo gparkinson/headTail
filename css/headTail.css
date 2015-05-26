@@ -6,33 +6,33 @@ header {
     height: 170px;
 }
 
-.headerColumnone{
+.headerColumnone {
   float: left;
 }
 
-.companyName{
-  font-family: sans-serif;
-  font-size: 70px;
-  text-align: left;
-  text-decoration: none;
-  padding-top: 20px;
-  color: green;
+.companyName {
+   font-family: sans-serif;
+   font-size: 70px;
+   text-align: left;
+   text-decoration: none;
+   padding-top: 20px;
+   color: green;
 }
-.companyMission{
-  font-size: 35px;
-  color: green;
+.companyMission {
+   font-size: 35px;
+   color: green;
 }
 .logoTop{
-  width: 150px;
+   width: 150px;
 }
 
-#hTHeader{
-  float: left;
-  padding-left: 20px;
+#hTHeader {
+   float: left;
+   padding-left: 20px;
 }
 
-.hTbody{
-	border: 2px solid;
+.hTbody {
+    border: 2px solid;
 	margin: 5%;
     font-family: 'Gentium Basic', Arial, sans-serif;
     font-size: 16px;
