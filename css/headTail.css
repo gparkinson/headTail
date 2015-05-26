@@ -3,7 +3,7 @@
 /* Header with photo background */
 
 header {
-    height: 150px;
+    height: 170px;
 }
 
 .headerColumnone{
@@ -42,6 +42,25 @@ header {
     padding-bottom: 2.5px;
     padding-left: 10px;
 }
+
+/* Settings for horizontal nav */
+
+#hTNav ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+
+}
+
+#hTNav ul li { 
+	display: inline-block; 
+	border: 2px solid;
+	padding: 10px 4%;
+	
+}
+
 
 ul {
     list-style-type: none;
