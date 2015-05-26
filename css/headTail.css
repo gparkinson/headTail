@@ -18,6 +18,7 @@ header {
    padding-top: 20px;
    color: green;
 }
+
 .companyMission {
    font-size: 35px;
    color: green;
@@ -31,8 +32,12 @@ header {
    padding-left: 20px;
 }
 
+/* most elements inherit from hTbody */
+
+
+
 .hTbody {
-    border: 2px solid;
+    
 	margin: 5%;
     font-family: 'Gentium Basic', Arial, sans-serif;
     font-size: 16px;
@@ -40,6 +45,13 @@ header {
     padding-top: 2.5px;
     padding-bottom: 2.5px;
     padding-left: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+    background: darkseagreen;
+    border-color: rgb(248,154,47);
+ /*   padding: 20px; 
+    width: 200px;
+    height: 150px; */
 }
 
 /* Settings for horizontal nav */
@@ -50,54 +62,42 @@ header {
     padding: 0;
     list-style-type: none;
     text-align: center;
-    color: white;
-}
-
-a[href^="#about"] {
-    color: black;
-    background-color: darkseagreen;
-    padding: 12px 24px;
-}
-
-a[href^="#offerings"] {
-    color: black;
-    background-color: darkseagreen;
-    padding: 12px 24px;
-}
-
-a[href^="http://"] {
-    color: black;
-    background-color: darkseagreen;
-    padding: 12px 24px;
-}
-
-a[href^="#contact"] {
-    color: black;
-    background-color: darkseagreen;
-    padding: 12px 24px;
-}
-
-a[href^="#map"] {
-    color: black;
-    background-color: darkseagreen;
-    padding: 12px 24px;
-}
-
-a[href^="#forms"] {
-    color: black;
-    background-color: darkseagreen;
-    padding: 12px 24px;
+    padding: 10px 4%;
 }
 
 #hTNav ul li { 
 	display: inline-block; 
 	border: 2px solid;
-    padding: 10px 4%;
+    border-radius: 15px;
+     border-color: rgb(248,154,47);
+    background-color: darkseagreen;
+    padding: 1% 4%;
 }
 
-ul {
-    list-style-type: none;
+#hTNav ul li a {
+	color: black;
+	padding: 0px 0px;
 }
+
+#hTContacts ul {
+	list-style-type: none;
+    text-align: center;
+  /*  padding: 0px 4%; */
+}
+
+#hTContacts ul li {
+	Margin: 10px 0;
+} 
+
+#hTForms ul {
+	list-style-type: none;
+    text-align: center;
+  /*  padding: 0px 4%; */
+}
+
+#hTForms ul li {
+	Margin: 10px 0;
+} 
 
 #mapCanvas {
 	width: 500px;
@@ -120,3 +120,40 @@ Footer {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
+
+/* a[href^="#about"] {
+    color: black;
+  
+}
+
+a[href^="#offerings"] {
+    color: black;
+ 
+}
+
+a[href^="http://"] {
+    color: black;
+  
+}
+
+a[href^="#contact"] {
+    color: black;
+  
+} 
+
+a[href^="#map"] {
+    color: black;
+    background-color: darkseagreen;
+    padding: 12px 24px;
+}
+
+a[href^="#forms"] {
+    color: black;
+    background-color: darkseagreen;
+    padding: 12px 24px;
+
+}
+*/
+
+
+
