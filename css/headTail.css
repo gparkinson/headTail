@@ -116,10 +116,11 @@ Footer {
     padding-bottom: 2.5%;
 }
 
-#hTOfferings {
-  padding-right: 10px;
+.offering {
+  margin-right: 5px;
+  margin-bottom: -10px;
+  height: 7em;
+  width: 7em;
+  float: left;
 }
 
-.offering {
-  margin-right: 20px;
-}
