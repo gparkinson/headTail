@@ -85,6 +85,10 @@ header {
 	Margin: 10px 0;
 } 
 
+#hTFeedback form {
+  margin-left: 10%;
+}
+
 #hTForms ul {
 	list-style-type: none;
     text-align: center;
@@ -121,6 +125,6 @@ Footer {
 }
 
 .offering {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
