@@ -49,9 +49,7 @@ header {
     border-radius: 25px;
     background: darkseagreen;
     border-color: rgb(248,154,47);
- /*   padding: 20px; 
-    width: 200px;
-    height: 150px; */
+
 }
 
 /* Settings for horizontal nav */
@@ -59,7 +57,6 @@ header {
 #hTNav ul
 {
     margin: 0;
-    padding: 0;
     list-style-type: none;
     text-align: center;
     padding: 10px 4%;
@@ -69,7 +66,7 @@ header {
 	display: inline-block; 
 	border: 2px solid;
     border-radius: 15px;
-     border-color: rgb(248,154,47);
+    border-color: rgb(248,154,47);
     background-color: darkseagreen;
     padding: 1% 4%;
 }
@@ -82,7 +79,6 @@ header {
 #hTContacts ul {
 	list-style-type: none;
     text-align: center;
-  /*  padding: 0px 4%; */
 }
 
 #hTContacts ul li {
@@ -92,7 +88,6 @@ header {
 #hTForms ul {
 	list-style-type: none;
     text-align: center;
-  /*  padding: 0px 4%; */
 }
 
 #hTForms ul li {
@@ -120,40 +115,6 @@ Footer {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }
-
-/* a[href^="#about"] {
-    color: black;
-  
-}
-
-a[href^="#offerings"] {
-    color: black;
- 
-}
-
-a[href^="http://"] {
-    color: black;
-  
-}
-
-a[href^="#contact"] {
-    color: black;
-  
-} 
-
-a[href^="#map"] {
-    color: black;
-    background-color: darkseagreen;
-    padding: 12px 24px;
-}
-
-a[href^="#forms"] {
-    color: black;
-    background-color: darkseagreen;
-    padding: 12px 24px;
-
-}
-*/
 
 #hTOfferings {
   padding-right: 10px;
